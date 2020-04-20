@@ -26,9 +26,9 @@ export default {
             currDest: 0,
             dest: [
                 "",
-                "https://www.youtube.com/embed/Ym5-7wr0KVI",
-                "https://www.youtube.com/embed/EAp6M8Ln4Ug",
-                "https://www.youtube.com/embed/N70w91TK9AQ"
+                "",
+                "",
+                ""
             ]
         }
     },
