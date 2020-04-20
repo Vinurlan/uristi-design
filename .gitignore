@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
 /dist
-/assets/audio
-/assets/img
+/src/assets/audio
+/src/assets/img
 /firebase
 
 # local env files
