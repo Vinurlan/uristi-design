@@ -1,0 +1,98 @@
+@import "./fonts.scss";
+
+$red: #FF5151;
+$yellow: #FBC866;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.col { 
+    &_y {
+        color: $yellow;
+    }
+
+    &_r {
+        color: $red;
+    }
+
+    &_w {
+        color: white;
+    }
+}
+
+.font {
+    &_bold {
+        font-weight: bold;
+    }
+}
+
+.bg {
+    &_y {
+        background: $yellow;
+    }
+
+    &_r {
+        background: $red;
+    }
+
+    &_dark {
+        &_r {
+            background: #D04646;
+        }
+        
+        &_gn {
+            background: #42A4A4;
+        }
+
+        &_be {
+            background: #5E81DA;
+        }
+    }
+}
+
+.btn_red {   
+    &-bg {
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background: $red;
+        transition: all .3s;
+    }
+    &-bg:hover {
+        color: $red;
+        background: none;
+    }
+
+    &-bd {
+        border: 2px solid $red;
+        border-radius: 8px;
+        color: black;
+        background: none;
+        transition: all .3s;
+    }
+    &-bd:hover {
+        color: white;
+        background: $red;
+    }
+}
+
+.btn_yellow {   
+    &-bg {
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background: $yellow;
+    }
+
+    &-bd {
+        border: 2px solid $yellow;
+        border-radius: 8px;
+        color: black;
+        background: none;
+    }
+}
+
