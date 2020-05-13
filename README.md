@@ -1,4 +1,4 @@
-# uristi-site
+# uristi-design
 
 
 ## Project setup
